@@ -11,6 +11,10 @@
 		814D0F9927B96A5C009C2041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D0F9827B96A5C009C2041 /* ContentView.swift */; };
 		814D0F9B27B96A5D009C2041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814D0F9A27B96A5D009C2041 /* Assets.xcassets */; };
 		814D0F9E27B96A5D009C2041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814D0F9D27B96A5D009C2041 /* Preview Assets.xcassets */; };
+		814D0FA627B96B94009C2041 /* StepperExplanation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D0FA527B96B94009C2041 /* StepperExplanation.swift */; };
+		814D0FA827B96EF6009C2041 /* DateAndDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D0FA727B96EF6009C2041 /* DateAndDatePicker.swift */; };
+		814D0FAA27B97198009C2041 /* DatesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814D0FA927B97197009C2041 /* DatesExample.swift */; };
+		814D0FAC27B9C905009C2041 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 814D0FAB27B9C905009C2041 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		814D0F9827B96A5C009C2041 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		814D0F9A27B96A5D009C2041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814D0F9D27B96A5D009C2041 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		814D0FA527B96B94009C2041 /* StepperExplanation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExplanation.swift; sourceTree = "<group>"; };
+		814D0FA727B96EF6009C2041 /* DateAndDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndDatePicker.swift; sourceTree = "<group>"; };
+		814D0FA927B97197009C2041 /* DatesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesExample.swift; sourceTree = "<group>"; };
+		814D0FAB27B9C905009C2041 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = BetterRest/SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,8 @@
 			children = (
 				814D0F9627B96A5C009C2041 /* BetterRestApp.swift */,
 				814D0F9827B96A5C009C2041 /* ContentView.swift */,
+				814D0FA427B96B61009C2041 /* Explanations */,
+				814D0FAB27B9C905009C2041 /* SleepCalculator.mlmodel */,
 				814D0F9A27B96A5D009C2041 /* Assets.xcassets */,
 				814D0F9C27B96A5D009C2041 /* Preview Content */,
 			);
@@ -65,6 +75,16 @@
 				814D0F9D27B96A5D009C2041 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		814D0FA427B96B61009C2041 /* Explanations */ = {
+			isa = PBXGroup;
+			children = (
+				814D0FA527B96B94009C2041 /* StepperExplanation.swift */,
+				814D0FA727B96EF6009C2041 /* DateAndDatePicker.swift */,
+				814D0FA927B97197009C2041 /* DatesExample.swift */,
+			);
+			path = Explanations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				814D0F9927B96A5C009C2041 /* ContentView.swift in Sources */,
+				814D0FA627B96B94009C2041 /* StepperExplanation.swift in Sources */,
 				814D0F9727B96A5C009C2041 /* BetterRestApp.swift in Sources */,
+				814D0FAC27B9C905009C2041 /* SleepCalculator.mlmodel in Sources */,
+				814D0FA827B96EF6009C2041 /* DateAndDatePicker.swift in Sources */,
+				814D0FAA27B97198009C2041 /* DatesExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
